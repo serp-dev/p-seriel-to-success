@@ -1,0 +1,38 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "indent": [
+            "error",
+            "tab",
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "object-curly-spacing": [
+            "error",
+            "never"
+        ],
+        "no-tabs": 0,
+        "global-require": [
+            "off"
+        ],
+        "no-else-return": [
+            "off"
+        ],
+        "comma-dangle": [
+            "off"
+        ],
+        "no-await-in-loop": [
+            "off"
+        ],
+        "consistent-return": [
+            "off"
+        ],
+        "no-restricted-syntax": [
+            "off"
+        ]
+    },
+    "env": {
+        "mocha": true
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "p-seriel-to-success",
+  "version": "1.0.0",
+  "description": "Run a handler function for each items until a successful result is obtained",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha \"test/**/*.test.js\"",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": "serp-dev/p-seriel-to-success",
+  "keywords": [
+    "promise",
+    "async",
+    "each",
+    "seriel"
+  ],
+  "author": "Serp <serpan911@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^8.1.3"
+  }
+}
